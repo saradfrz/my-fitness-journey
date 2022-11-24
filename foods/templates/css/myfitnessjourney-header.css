@@ -1,0 +1,26 @@
+#header-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+.my-fitness-journey-box {
+    width: 750px;
+    height: 90px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #343A40;
+    z-index: 2;
+}
+
+.my-fitness-journey-title {
+    position: relative;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: #DEDFE0;
+    font-size: 65px;
+    padding: auto;
+    text-align: center;
+    z-index: 3;
+}

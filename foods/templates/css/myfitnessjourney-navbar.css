@@ -1,0 +1,24 @@
+.sidenav {
+    position: fixed;
+    width: 10%;
+    background-color: #2A2529;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav{
+    width: 100%;
+}
+
+.nav-link{
+    height: 50px;
+    text-align: center;
+}
+
+.sidenav a:hover {
+    background-color: #525C64;
+    border-bottom: 2px solid #e30000 ;
+}
+

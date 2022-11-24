@@ -1,0 +1,61 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0px auto;
+}
+
+#myfitnessjourney-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+#myfitnessjourney-navbar {
+    height: 1300px;
+    width: 10%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 75px;
+    margin-bottom: 150px;
+    overflow-x: hidden;
+    background-color: #212529;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    overflow: auto;
+}
+
+#myfitnessjourney-contents  {
+    position: relative;
+    height: 1300px;
+    margin-left: 10%;
+    margin-top: 150px;
+    width: 90%;
+    overflow: auto;
+    display: flex;
+    justify-content: center ;
+    align-items: stretch;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#myfitnessjourney-footer {
+    bottom: 0;
+    background-color: #212529;
+    height: 500px;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    z-index: 3;
+    border-top: 2px solid #e30000 ;
+}
