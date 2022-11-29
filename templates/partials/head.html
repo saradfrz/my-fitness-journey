@@ -1,3 +1,5 @@
+{% load static %}
+
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,8 +34,10 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 <!-- CSS-->
-<link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/content-area.css">
-<link rel="stylesheet" href="css/navbar.css">
-<link rel="stylesheet" href="css/header.css">
-<link rel="stylesheet" href="css/footer.css">
+
+<link rel="stylesheet" href="{% static 'css/global/base.css' %}">
+<link rel="stylesheet" href="{% static 'css/global/content-area.css' %}">
+<link rel="stylesheet" href="{% static 'css/global/navbar.css' %}">
+<link rel="stylesheet" href="{% static 'css/global/header.css' %}">
+<link rel="stylesheet" href="{% static 'css/global/footer.css' %}">
+

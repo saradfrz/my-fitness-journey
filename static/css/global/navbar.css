@@ -20,5 +20,6 @@
 .sidenav a:hover {
     background-color: #525C64;
     border-bottom: 2px solid #e30000 ;
+    transition: all 300ms ease-in-out;
 }
 
